@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-greenblue: #76BEBF;
+  --color-lightblue: #B8DFDF;
+  --color-black: #000000;
+  --color-charcoal: #2F4A5E;
+  --color-darkgreenblue: #4B7983;
+  --color-lightgreenblue: #D0EFEF;
+}
+
+
+
+
+
