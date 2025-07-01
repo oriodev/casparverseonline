@@ -1,8 +1,9 @@
-
 export default async function Home() {
+
+
   return (
-    <div>
+    <main className="">
       <p>a big work in progress</p>
-    </div>
-  );
+    </main>
+  )
 }

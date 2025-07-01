@@ -12,7 +12,14 @@
   --color-lightgreenblue: #D0EFEF;
 }
 
+/* Hide scrollbars for all browsers */
+html {
+  scrollbar-width: none; /* Firefox */
+  color: rgb(0, 0, 0);
+}
 
-
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
 
 
