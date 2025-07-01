@@ -5,7 +5,7 @@ import Navbar from "@/components/navigation/navbar";
 import Toptabs from "@/components/navigation/toptabs";
 import Sidebar from "@/components/containers/sidebar";
 
-export const poppins = Poppins({
+const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
   weight: ['400', '500', '600', '700', '800'],
