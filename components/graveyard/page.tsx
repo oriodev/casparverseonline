@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { poppins } from "../../app/layout";
 
 export default async function Home() {
   return (
@@ -20,7 +19,7 @@ export default async function Home() {
       </div>
       {/* TEXT. */}
       <div className="flex flex-col gap-3 pt-5">
-        <h1 className={`${poppins.className} text-xl sm:text-3xl md:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-greenblue via-lightgreenblue to-greenblue bg-clip-text text-transparent`}>CASPARVERSE ONLINE.</h1>
+        <h1 className={`text-xl sm:text-3xl md:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-greenblue via-lightgreenblue to-greenblue bg-clip-text text-transparent`}>CASPARVERSE ONLINE.</h1>
         <p className="text-2xl">
           The Casparverse, at it&lsquo;s core, is about running away from your past and finding a home full of love and friendship and safety to catch you on the other side.
           Casparverse online lets you explore this world through novels, short stories, a full wiki, and so much more.
